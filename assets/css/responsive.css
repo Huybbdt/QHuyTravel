@@ -1,0 +1,319 @@
+
+/* Mobile & Tablet */
+@media  (max-width: 1199px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    @keyframes navbar__menu-animation {
+        from {
+            top: 0;
+            left: -315px;
+            opacity: 0;
+        }
+
+        to {
+            top: 0;
+            left: 0;
+            opacity: 1;
+        }
+    }
+
+    .container__header {
+        height: 100%;
+    }
+
+    .navbar__menu-pc {
+        top: 0px;
+        left: 0;
+    }
+    .menu__checkbox:checked~.navbar__menu-pc {
+        display: none;
+    }
+    .menu__checkbox:checked~.navbar__menu-mobile-tablet {
+        display: block;
+    }
+    .header__navbar {
+        display: block;
+        text-align: center;
+        background-color: #555;
+    }
+
+    .header__navbar-left {
+        display: block;
+    }
+
+    .navbar__logo-link {
+        margin-right: 0;
+    }
+
+    .navbar__menu {
+        margin-top: 10px;
+    }
+
+    .header__choose-content {
+        width: 90%;
+    }
+
+    .header__choose-select {
+        width: 100%;
+    }
+
+    .header__choose-link {
+        right: 4px;
+    }
+
+    .header__choose-link-icon {
+        width: 25px;
+    }
+
+    .header__location-travel {
+        width: 90%;
+        display: block;
+
+    }
+
+    .header__location-travel-product {
+        margin-bottom: 33px;
+        margin-right: 0;
+        background: rgba(0, 0, 0, 0.45);
+    }
+
+    .main__wrapper-package {
+        width: 100%;
+        display: block;
+    }
+
+    .main__wrapper-package-img {
+        width: 100%;
+        
+    }
+
+    .package__product-hover {
+        width: 100%;
+        min-height: 100%;
+        background-size: auto;
+    }
+
+    .package__product-hover-content {
+        padding-top: 35%;
+    }
+
+    .main__banner {
+        padding-top: 50px !important;
+        padding-bottom: 90px !important;
+
+    }
+
+    .main__banner-content {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .main__banner-content-text {
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .main__beaches-best {
+        display: block;
+        width: 100%;
+    }
+
+    .main__beaches-best-description {
+        width: 100%;
+        padding: 50px 0 50px 50px;
+    }
+
+    .w3-content {
+        width: 90% !important;
+    }
+
+    .main__beaches-best-img-time {
+        width: 60%;
+    }
+
+    .main__location-content {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main__location-content-travel {
+        margin-bottom: 30px;
+    }
+
+    .main-inner {
+        display: block;
+    }
+
+    .main-inner-content {
+        width: 100%;
+    }
+
+    .main__promotions {
+        display: block;
+        width: 100%;
+    }
+
+    .promotions__container {
+        width: 100%;
+    }
+
+    .main__promotions-content {
+        width: 100%;
+        display: block;
+    }
+
+    .main__promotions-content-container {
+        width: 90%;
+        margin: 50px;
+    }
+
+    .main__promotions-content-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer__content {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .footer__above {
+        display: block;
+
+    }
+
+    .footer__above-heading {
+        margin-top: 0;
+        margin-right: 0;
+        padding: 50px;
+    }
+
+    .footer__above-search {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .footer__above-search-input {
+        width:50%;
+    }
+    .footer__center {
+        display: block;
+    }
+    .footer_50 {
+        width: 100%;
+    }
+
+}
+/* End  Mobile & Tablet */
+/* Mobile */
+
+@media  (max-width: 739px) {
+    
+    .package__product-hover-content {
+        padding-top: 15%;
+    }
+    .row__50 {
+        display: block;
+    }
+    .footer_33 {
+
+        margin-top: 50px;
+    }
+    .footer__below {
+        display: block;
+    }
+    .footer__below-text {
+        text-align: center;
+    }
+    .header__heading-title {
+        width:100%;
+    }
+    .main__wrapper-destination {
+        width:100%;
+    }
+   
+
+}
+
+@media  (max-width: 600px) {
+    .main__beaches-best-img-time {
+        display: block;
+        height: 85%;
+        width: 60%;
+        left: 20%;
+        bottom: -61%;
+    }
+    .main__beaches-best-img-time-item{
+        width: 100%;
+    }
+    .main__beaches-best-img-time-number {
+        margin-top:20px;
+    }
+    .margin-top-50-mb {
+        margin-top: 80%;
+    }
+    .main__banner-content-btn {
+        width: 100%;
+    }
+    
+}
+
+/* End Mobile  */
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+   
+    .main__wrapper-package-img {
+        width: 100%;
+        height: 740px;
+        
+    }
+    
+    
+
+}
+/*End Tablet */
+
+/* PC-min */
+@media (min-width: 1200px) and (max-width: 1449px) {
+   
+    .navbar__item {
+        padding: 8px;
+    }
+
+}
+
+/*End PC-min */
+/* Tablet & PC-min */
+@media (min-width: 1024px) and (max-width: 1200px) {
+   
+    .hide-on-tablet {
+        display: none;
+    }
+    .main__wrapper-package-img {
+        width: 100%;
+        height: 919px;
+        
+    }
+    
+
+}
+/* End Tablet & PC-min */
+
+@keyframes navbar__menu-animation {
+    from {
+        top: 0;
+        right: -315px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        right: 0;
+        opacity: 1;
+    }
+}
