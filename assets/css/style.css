@@ -227,6 +227,7 @@ body {
     animation: navbar__menu-animation ease-out 0.3s;
 }
 .navbar__menu-mobile-tablet {
+    text-align: left;
     height: 100%;
     overflow: scroll;
     position: fixed;

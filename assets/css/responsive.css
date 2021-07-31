@@ -23,10 +23,7 @@
         height: 100%;
     }
 
-    .navbar__menu-pc {
-        top: 0px;
-        left: 0;
-    }
+
     .menu__checkbox:checked~.navbar__menu-pc {
         display: none;
     }
