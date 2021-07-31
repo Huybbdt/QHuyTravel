@@ -261,6 +261,15 @@
     }
 }
 
+@media  (max-width: 370px)  {
+    .navbar__menu-mobile-tablet {
+        width: 100%;
+    }
+    .navbar__menu-btn-close {
+        margin-left: 85%;
+    }
+}
+
 /* End Mobile  */
 
 /* Tablet */
